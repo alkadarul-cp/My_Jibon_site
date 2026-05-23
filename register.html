@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রেজিস্ট্রেশন | জীবন - মাওনা, ঢাকা</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <div class="register-bg-container">
+        
+        <a href="index.html" class="back-btn-new"><i class="fa-solid fa-arrow-left"></i> ফিরে যান</a>
+
+        <div class="register-glass-card">
+            <div class="form-title-area">
+                <h2><span class="red-text">জীবন</span> - রেজিস্ট্রেশন ফর্ম</h2>
+            </div>
+
+            <form class="actual-form">
+                <div class="form-grid">
+                    <div class="input-box">
+                        <label>নাম</label>
+                        <input type="text" placeholder="আপনার পূর্ণ নাম" required>
+                    </div>
+                    <div class="input-box">
+                        <label>ফোন নম্বর</label>
+                        <input type="tel" placeholder="01XXXXXXXXX" required>
+                    </div>
+                    <div class="input-box">
+                        <label>রক্তের গ্রুপ</label>
+                        <select required>
+                            <option value="">নির্বাচন করুন, eg. A+, B-</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="O+">O+</option>
+                            <option value="O-">O-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label>লিঙ্গ</label>
+                        <div class="gender-options">
+                            <label class="radio-lbl"><input type="radio" name="gender" value="male" checked> পুরুষ</label>
+                            <label class="radio-lbl"><input type="radio" name="gender" value="female"> মহিলা</label>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label>জেলা</label>
+                        <select required>
+                            <option value="">আপনার জেলা</option>
+                            <option value="ঢাকা">ঢাকা</option>
+                            <option value="গাজীপুর">গাজীপুর</option>
+                            <option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option>
+                            <option value="নরসিংদী">নরসিংদী</option>
+                            <option value="মানিকগঞ্জ">মানিকগঞ্জ</option>
+                            <option value="মুন্সীগঞ্জ">মুন্সীগঞ্জ</option>
+                            <option value="ফরিদপুর">ফরিদপুর</option>
+                            <option value="গোপালগঞ্জ">গোপালগঞ্জ</option>
+                            <option value="মাদারীপুর">মাদারীপুর</option>
+                            <option value="রাজবাড়ী">রাজবাড়ী</option>
+                            <option value="শরীয়তপুর">শরীয়তপুর</option>
+                            <option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option>
+                            <option value="টাঙ্গাইল">টাঙ্গাইল</option>
+                        </select> 
+                        
+                        <!-- <input type="text" placeholder="আপনার জেলা" required> -->
+                    </div>
+                    <div class="input-box">
+                        <label>উপজেলা/থানা</label>
+                        <select required>
+                            <option value="আপনার থানা"><a class="apnar-thana">আপনার থানা</a></option>
+                            <option value="শ্রীপুর থানা">শ্রীপুর থানা</option>
+                            <option value="কাপাসিয়া থানা">কাপাসিয়া থানা</option>
+                            <option value="কালীগঞ্জ থানা">কালীগঞ্জ থানা</option>
+                            <option value="কালিয়াকৈর থানা">কালিয়াকৈর থানা</option>
+                            <option value="গাজীপুর সদর থানা">গাজীপুর সদর থানা</option>
+                            <option value="বাসন থানা">বাসন থানা</option>
+                            <option value="কোণাবাড়ী থানা">কোণাবাড়ী থানা</option>
+                            <option value="কাশিমপুর থানা">কাশিমপুর থানা</option>
+                            <option value="গাছা থানা">গাছা থানা</option>
+                            <option value="পূবাইল থানা">পূবাইল থানা</option>
+                            <option value="টঙ্গী পূর্ব থানা">টঙ্গী পূর্ব থানা</option>
+                            <option value="টঙ্গী পশ্চিম থানা">টঙ্গী পশ্চিম থানা</option>
+                        </select>
+                        <!-- <input type="text" placeholder="আপনার থানা" required> -->
+                    </div>
+                    <div class="input-box">
+                        <label>ইমেইল</label>
+                        <input type="email" placeholder="আপনার ইমেইল (ঐচ্ছিক)">
+                    </div>
+                    <div class="input-box">
+                        <label>পাসওয়ার্ড</label>
+                        <input type="password" placeholder="কমপক্ষে ৮টি অক্ষর" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="register-submit-btn">নিবন্ধন করুন</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
